@@ -1,0 +1,6 @@
+package HerenciaAbstract;
+
+public interface Playable {
+void play();
+void stop();
+}
