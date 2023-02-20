@@ -1,0 +1,23 @@
+package HerenciaAbstract;
+
+public class MediaPlayer {
+
+Playable aparato;
+
+public Playable getAparato() {
+	return aparato;
+}
+
+public void setAparato(Playable aparato) {
+	this.aparato = aparato;
+}
+public void relampago() {
+	aparato.play();
+	aparato.stop();
+	aparato.play();
+	aparato.stop();
+}
+
+
+
+}
