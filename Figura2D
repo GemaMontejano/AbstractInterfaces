@@ -1,0 +1,10 @@
+package HerenciaAbstract;
+
+public abstract class Figura2D extends Figura {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public abstract double area ();
+}
