@@ -1,0 +1,19 @@
+package HerenciaAbstract;
+
+public abstract class Figura {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+protected int Nombre;
+public int getNombre() {
+	return Nombre;
+}
+public void setNombre(int nombre) {
+	Nombre = nombre;
+}
+public abstract double dibujar ();
+	
+
+}
