@@ -1,0 +1,20 @@
+package HerenciaAbstract;
+
+public class Video implements Playable{
+
+	@Override
+	public void play() {
+		System.out.println("reproduciendo");
+		
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("parando");
+		
+	}
+
+
+	}
+
+
