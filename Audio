@@ -1,0 +1,16 @@
+package HerenciaAbstract;
+
+public class Audio implements Playable{
+
+	@Override
+	public void play() {
+		System.out.println("reproduciendo");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("parando");
+		
+	}
+
+}
