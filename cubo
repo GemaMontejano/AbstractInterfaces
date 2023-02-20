@@ -1,0 +1,40 @@
+package HerenciaAbstract;
+
+public class cubo extends Figuras3D {
+
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return super.area();
+	}
+
+	@Override
+	public double dibujar() {
+		// TODO Auto-generated method stub
+		return super.dibujar();
+	}
+
+	@Override
+	public int getNombre() {
+		// TODO Auto-generated method stub
+		return super.getNombre();
+	}
+
+	@Override
+	public void setNombre(int nombre) {
+		// TODO Auto-generated method stub
+		super.setNombre(nombre);
+	}
+
+	@Override
+	public double volumen() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
